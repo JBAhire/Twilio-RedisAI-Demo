@@ -1,14 +1,14 @@
 # Twilio-RedisAI-Demo
 In this demo I will be demoying an image labelling using redisAI and we will display our result using Twilio WhatsApp API. This interactive demo can give you good insights of twilio API's as well as AI capabilities of Redis.
 
-# Prerequisites
+## Prerequisites
 * A Twilio account - sign up for a free one here
 * A Twilio phone number with SMS capabilities - configure one here
 * Set up your Python and Flask developer environment - Make sure you have Python 3 downloaded as well as ngrok.
 * Redis with RedisAI module
 * Models are already here in models folder.
 
-# Installation for Redis
+## Installation for Redis
 Download, extract and compile Redis with:
 ```
 $ wget http://download.redis.io/releases/redis-5.0.7.tar.gz
@@ -28,10 +28,10 @@ OK
 redis> get foo
 "bar"
 ```
-# Installation for RedisAI
+## Installation for RedisAI
 You can find instructions to launch docker instance or build RedisAI from source here: https://github.com/RedisAI/RedisAI
 
-# Setup and Demo:
+## Setup and Demo:
 * Start Redis-Server with redisAI module or launch redisAI docker instance. [ you can find instructions at https://github.com/RedisAI/RedisAI ]
 
 * Run Demo.py file
@@ -44,7 +44,7 @@ You can find instructions to launch docker instance or build RedisAI from source
 
 * send any photo on the chat and see the result!
 
-# If you want to know more about this and how this works please check out my blog post here: 
+## If you want to know more about this and how this works please check out my blog post here: 
 
 
 
