@@ -35,10 +35,13 @@ You can find instructions to launch docker instance or build RedisAI from source
 * Start Redis-Server with redisAI module or launch redisAI docker instance. [ you can find instructions at https://github.com/RedisAI/RedisAI ]
 
 * Run Demo.py file
+![Run demo.py file](https://github.com/JBAhire/Twilio-RedisAI-Demo/blob/master/Docs/flask.png)
 
 * Your Flask app will need to be visible from the web so Twilio can send requests to it. Ngrok lets us do this. With it installed, run the following command in your terminal in the directory your code is in. Run ```ngrok http 5000``` in a new terminal tab.
+![ngrok](https://github.com/JBAhire/Twilio-RedisAI-Demo/blob/master/Docs/ngrok.png)
 
 * Grab that ngrok URL to configure twilio whatsapp sandbox.
+![Twilio Whatsapp Sandbox](https://github.com/JBAhire/Twilio-RedisAI-Demo/blob/master/Docs/twilio-sandbox.png)
 
 * Follow the instructions on twilio whatsapp sandbox website to join the sandbox.
 
